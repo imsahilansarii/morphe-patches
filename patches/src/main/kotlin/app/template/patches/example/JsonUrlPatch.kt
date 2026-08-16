@@ -10,7 +10,6 @@ val jsonUrlPatch = bytecodePatch(
     description = "Configures the OTA JSON URL used for update checks.",
     default = true
 ) {
-    compatibleWith(COMPATIBILITY_EXAMPLE)
 
     val otaJsonUrlOption = stringOption(
         key = "otaJsonUrl",
